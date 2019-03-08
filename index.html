@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Matatu Information System</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <img src="images/mat1.jpeg">
+            <h1>Nairobi Mat Info App</h1>
+        </div>
+
+        <div class="firstpage">
+            <div class="main">
+                <p>
+                    <strong>Welcome!</strong> Thank you for choosing this site to help you navigate your way in town and its environs.</p>
+
+                <h3 class="bg-danger" id="click">Enter your details!</h3>
+
+                <form class="card" id="form" class="form-group">
+
+
+                    <input type="text" class="form-control" id="name" placeholder="Passenger Name" required name="name">
+                    <br>
+                    <input type="text" class="form-control" id="contacts" placeholder="Contacts" required name="route">
+                    <br>
+                    <input type="text" class="form-control" id="ID NO" placeholder=" ID NO" required name="route">
+                    <br>
+                    <form class="saccos">
+                        <ol>
+                            <li class="routes" id="routes">Which route do you want to navigate?</li>
+                            <div class="radio" id="paragraph">
+                                <label>
+                                    <input id="Thika" type="radio" required name="choice1" class="answer1" value="0"> Thika road
+ 
+                               </label>
+                                <br>
+                                <label>
+                                    <input id="Mombasa" type="radio" name="choice1" class="route1" value="mbsrd"> Mombasa road </label>
+                                <br>
+                                <label>
+                                    <input id="Ngong" type="radio" name="choice1" class="route2" value="ngrd"> Ngong road </label>
+                                <br>
+                                <label>
+                                    <input id="Waiyaki" type="radio" name="choice1" class="route3" value="waird"> Waiyaki way </label>
+                                <br>
+                                <label>
+                                    <input id="Juja" type="radio" name="choice1" class="route4" value="0"> Juja Road</label>
+                                <br>
+                                <label>
+                                    <input id="Jogoo" type="radio" name="choice1" class="route5" value="0"> Jogoo road</label>
+                                <br>
+                                <label>
+                                    <input id="Kiambu" type="radio" name="choice1" class="route6" value="0"> Kiambu Road</label>
+                                <br>
+                                <p id="show">Show saccos plying the route</p>
+                            </div>
+                            
+
+
+
+            </div>
+
+            <button type="submit" class="btn-danger" id="submit" >Confirm.</button>
+
+            </form>
+            <label>Contributors:</label><br>
+            <p>Fred. Kibet. Cornelius. Judy.</p>
+        </div>
+    </div>
+
+
+
+
+</body>
+
+</html>
